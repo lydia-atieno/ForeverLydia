@@ -61,12 +61,12 @@ html{
     position: ;
     z-index: ;
     letter-spacing: .1rem;
-    color: #FFF29C;
+    color: yellow;
     font-weight: 100;
     font-family: "Cormorant Upright", serif;
 }
 #title h2{
-    color: #FFF29C;
+    color: yellow;
     font-weight: 100;
     font-family: "Cormorant Upright", serif;
 }
