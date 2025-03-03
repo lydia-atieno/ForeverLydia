@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+html{
+    font-family: "Bellefair", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFF29C;
+}
+#weight ul li{
+    max-width: 300px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+#weight p{
+    font-size: 1.2rem;
+}
+#weight h2{
+    margin-top: 10px;
+    letter-spacing: .1rem;
+}
+#weight h1{
+    margin-top: 10px;
+}
+table{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 1200px){
+    #weight h1{
+        font-size: 2.2rem;
+        letter-spacing: .1rem;
+    }
+    #weight h2{
+        font-size: 1.8rem;
+        letter-spacing: .1rem;
+    }
+    #weight ul li{
+        max-width: none;
+        font-size: 1.5rem;
+    }
+    #weight p{
+        font-size: 1.5rem;
+    }
+    table{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+html{
+    font-family: "Bellefair", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 355vh;
+    width: 100%;
+    background-color: #FFF29C;
+    margin-top: px;
+}
+#male .men{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+}
+#male h1{
+    margin-top: 20px;
+    letter-spacing: .1rem;
+    font-size: 1.8rem;
+}
+#male h3{
+    margin-top: 10px;
+    letter-spacing: .1rem;
+    font-size: 1.2rem;
+}
+#male ul{
+    display: flex;
+    flex-direction: column;
+}
+#male p{
+    font-size: 1.2rem;
+    max-width: 300px;
+}
+#male .vit{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#male ul{
+    max-width:280px;
+}
+#male ul li{
+    margin-bottom: 10px;
+}
+#male .vit h2{
+    letter-spacing: .1rem;
+}
+#male .vit ul li{
+    font-size: 1.2rem;
+    max-width: 300px;
+}
+table{
+    margin-top: 20px;
+}
+
+/*Media Query For Desktop*/
+@media screen and (min-width: 1200px){
+    #male{
+        max-width: none;
+    }
+    #male h1{
+        font-size: 2.2rem;
+        max-width: none;
+    }
+    #male .men h1{
+        max-width: none;
+    }
+    #male h3{
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        max-width: none;
+    }
+    #male .men{
+        max-width: none;
+    }
+    #male .men p{
+        font-size: 1.4rem;
+        max-width: 850px;
+    }
+    #male .vit h2{
+        font-size: 2rem;
+        letter-spacing: .1rem;
+    }
+    #male .vit{
+        max-width: none;
+    }
+    #male ul li{
+        font-size: 2rem;
+        max-width: none;
+    }
+    table {
+        font-size: 1.3rem;
+    }
+}

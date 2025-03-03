@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+html{
+    font-family: "Bellefair", serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 220vh;
+    width: 100%;
+    background-color: #FFF29C;
+}
+#kids ul li{
+    max-width: 300px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+#kids h1{
+    letter-spacing: .1rem;
+    margin-top: 15px;
+}
+#kids h3{
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    margin-top: px;
+}
+#kids .kid1 img{
+    margin-left: 50px;
+}
+#kids .vit img{
+    margin-left: 50px;
+}
+#kids .aloe img{
+    margin-left: 50px;
+}
+table{
+    margin-top: 20px;
+}
+@media screen and (min-width: 1200px){
+    #kids{
+        min-height: ;
+    }
+    #kids h1{
+        letter-spacing: .1rem;
+        font-size: 2.2rem;
+    }
+    #kids h3{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    #kids ul li{
+        font-size: 2rem;
+        max-width: none;
+    }
+    table{
+        font-size: 1.4rem;
+    }
+    #kids .kid1 img{
+        margin-left: 580px;
+    }
+    #kids .vit img{
+        margin-left: 130px;
+    }
+    #kids .aloe img{
+        margin-left: 300px;
+    }
+}

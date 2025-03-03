@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+html{
+    font-family: "Bellefair", serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 282vh;
+    width: 100%;
+    background-color: #FFF29C;
+
+    }
+#aloe{
+    
+    }
+#aloe .gel h1{
+    margin-top: 20px;
+    letter-spacing: .1rem;
+}
+#aloe ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: px;
+    align-items: flex-start;
+}
+#aloe ul {
+    list-style-type: ;
+}
+#aloe ul li{
+    margin-top: 8px;
+    font-size: 1.2rem;
+}
+table{
+    margin-top: 20px;
+}
+
+/*Media Query For Desktop*/
+@media screen and (min-width: 1200px){
+    #aloe{
+        min-height: 20vh;
+        margin-top: 400px;
+        margin-bottom: 20px;
+    }
+    #aloe .gel h1{
+        font-size: 2.2rem;
+    }
+    #aloe .gel img{
+        width: 320px;
+        height: 320px;
+    }
+    #aloe ul li{
+        font-size: 2rem;
+        max-width: ;
+        
+    }
+    #aloe ul{
+        max-width: none;
+    }
+}
