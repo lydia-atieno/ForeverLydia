@@ -65,6 +65,9 @@ html{
     font-weight: ;
     font-family: "Cormorant Upright", serif;
 }
+#title h1 span{
+    color: white;
+}
 #title h2{
     color: yellow;
     font-weight: ;
