@@ -35,7 +35,25 @@ html{
     /*background-color: #A64D79;*/
     
 }
-
+/*header section*/
+#header{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    
+}
+#header .header{
+    height: 10vh;
+    margin-right:px;
+    
+}
+#header .logo{
+    margin-left: 460px;
+    margin-bottom: 460px;
+}
+/*end header section*/
 /*Title Section*/
 #title{
     background-image: url(https://github.com/lydia-atieno/ForeverLydia/blob/master/pics/1.jpg?raw=true);
