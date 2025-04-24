@@ -40,6 +40,9 @@ html{
     display: flex;
     flex-direction: column;
 }
+#male ul li{
+    font-size: 1.2rem;
+}
 #male p{
     font-size: 1.2rem;
     max-width: 300px;
