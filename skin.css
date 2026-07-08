@@ -14,7 +14,7 @@ html{
     align-items: center;
     display: flex;
     flex-direction: column;
-    min-height: 790vh;
+    min-height: 750vh;
     width: 100%;
     background-color: #FFF29C;
 }
